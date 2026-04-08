@@ -1,6 +1,6 @@
 # iPhone Web Slicing (Responsive)
 
-Website ini merupakan hasil **slicing UI website iPhone (Apple style)** menggunakan **HTML, CSS, dan JavaScript (DOM)** dengan pendekatan **mobile-first responsive design**.
+Website ini merupakan hasil **slicing UI website iPhone (Apple style)** menggunakan **HTML, CSS, dan JavaScript (DOM)** dengan pendekatan **mobile-first responsive design** dan menggunakan **aos animation dari github**.
 
 ---
 <p align="center">
@@ -18,6 +18,7 @@ Website ini merupakan hasil **slicing UI website iPhone (Apple style)** mengguna
 * **JavaScript (Vanilla DOM)**
 * **Google Fonts – Poppins**
 * **Font Awesome (CDN Icons)**
+* **Aos Animation Github**
 
 ---
 
@@ -121,13 +122,3 @@ Project ini dibuat untuk:
 * Memahami responsive design
 * Menggunakan Flexbox & Grid
 * Mengelola layout modern tanpa framework
-
----
-
-## 🚀 Deployment (GitHub Pages)
-
-1. Masuk ke repo di GitHub
-2. Klik **Settings**
-3. Pilih **Pages**
-4. Source: `main` branch
-5. Klik **Save**
