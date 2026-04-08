@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -59,7 +61,7 @@
     </header>
 
     <section class="iphone-section" id="home">
-        <div class="iphone-hero">
+        <div class="iphone-hero" data-aos="fade-up" data-aos-duration="2000">
             <h1 class="iphone-title">iPhone</h1>
 
             <div class="iphone-wrapper">
@@ -127,7 +129,7 @@
     </section>
 
     <section class="explore-section" id="model">
-        <div class="explore-hero">
+        <div class="explore-hero" data-aos="fade-up" data-aos-duration="2000">
             <div class="explore-header">
                 <h2 class="explore-title">Jelajahi jajarannya.</h2>
                 <a href="https://ibox.co.id/pages/lihat-semua-iphone-810" class="explore-compare">Bandingkan semua model <i class="fa-solid fa-angle-right"></i></a>
@@ -261,11 +263,11 @@
     </section>
 
     <section class="hero-person" id="banner">
-        <div class="person-header">
+        <div class="person-header" data-aos="fade-up" data-aos-duration="2000">
             <h2 class="person-title">Lihat lebih dekat.</h2>
         </div>
 
-        <div class="hero-wrapper">
+        <div class="hero-wrapper"  data-aos="fade-up" data-aos-duration="2000">
             <img src="Assets/banner/apple-banner.jpg" alt="Banner">
 
             <div class="content-person">
@@ -280,7 +282,7 @@
     </section>
 
     <section class="galery-section" id="gallery">
-        <div class="galery-hero">
+        <div class="galery-hero" data-aos="fade-up" data-aos-duration="2000">
             <div class="galery-header">
                 <h2 class="galery-title">Gallery Iphone</h2>
                 <a href="https://ibox.co.id/pages/lihat-semua-aksesori-790" target="_blank"><p>The Galery Iphone <i class="fa-solid fa-angle-right"></i></a></p>
@@ -348,8 +350,8 @@
     </section>
 
     <section class="accesories" id="accessories">
-        <h2>Yang penting untuk iPhone.</h2>
-        <div class="accessories-container">
+        <h2 data-aos="fade-up" data-aos-duration="2000">Yang penting untuk iPhone.</h2>
+        <div class="accessories-container" data-aos="fade-up" data-aos-duration="2000">
             <div class="card">
                 <h3>Aksesori iPhone</h3>
                 <p>
@@ -379,9 +381,9 @@
     </section>
 
     <section class="pairing" id="information">
-        <h2>Pasangan sempurna</h2>
+        <h2 data-aos="fade-up" data-aos-duration="2000">Pasangan sempurna</h2>
 
-        <div class="pairing-container">
+        <div class="pairing-container" data-aos="fade-up" data-aos-duration="2000">
 
             <div class="accordion">
 
@@ -434,7 +436,7 @@
     </section>
 
     <section class="iphone-menu" id="brand">
-        <div class="container-menu">
+        <div class="container-menu" data-aos="fade-up" data-aos-duration="2000">
             <h1>iPhone</h1>
 
             <div class="menu-grid">
@@ -479,7 +481,7 @@
 
     <footer class="footer">
 
-        <div class="footer-container">
+        <div class="footer-container" data-aos="fade-up" data-aos-duration="2000">
 
             <div class="footer-logo">
                 <i class="fa-brands fa-apple"></i>
@@ -488,79 +490,87 @@
 
             <div class="footer-grid">
 
-                <div>
-                    <h4>Belanja dan Belajar <i class="fa-solid fa-chevron-down"></i></h4>
-                    <ul>
-                        <li>Mac</li>
-                        <li>iPad</li>
-                        <li>iPhone</li>
-                        <li>Watch</li>
-                        <li>AirPods</li>
-                        <li>TV & Rumah</li>
-                        <li>AirTag</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Dompet Apple <i class="fa-solid fa-chevron-down"></i></h4>
-                    <ul>
-                        <li>Dompet</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4>Akun <i class="fa-solid fa-chevron-down"></i></h4>
-                    <ul>
-                        <li>Kelola Akun</li>
-                        <li>iCloud.com</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Hiburan <i class="fa-solid fa-chevron-down"></i></h4>
-                    <ul>
-                        <li>Apple Music</li>
-                        <li>Apple TV</li>
-                        <li>Apple Music</li>
-                        <li>Apple Arcade</li>
-                        <li>Apple Fitness+</li>
-                        <li>Apple Podcast</li>
-                        <li>Apple Books</li>
-                        <li>App Store</li>
-                    </ul>
+                <div class="footer-col">
+                    <div>
+                        <h4>Belanja dan Belajar <i class="fa-solid fa-chevron-down"></i></h4>
+                        <ul>
+                            <li>Mac</li>
+                            <li>iPad</li>
+                            <li>iPhone</li>
+                            <li>Watch</li>
+                            <li>AirPods</li>
+                            <li>TV & Rumah</li>
+                            <li>AirTag</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Dompet Apple <i class="fa-solid fa-chevron-down"></i></h4>
+                        <ul>
+                            <li>Dompet</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div>
-                    <h4>Untuk Bisnis <i class="fa-solid fa-chevron-down"></i></h4>
-                    <ul>
-                        <li>Apple dan Bisnis</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Untuk Pendidikan <i class="fa-solid fa-chevron-down"></i></h4>
-                    <ul>
-                        <li>Apple dan Pendidikan</li>
-                    </ul>
+                <div class="footer-col">
+                    <div>
+                        <h4>Akun <i class="fa-solid fa-chevron-down"></i></h4>
+                        <ul>
+                            <li>Kelola Akun</li>
+                            <li>iCloud.com</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Hiburan <i class="fa-solid fa-chevron-down"></i></h4>
+                        <ul>
+                            <li>Apple Music</li>
+                            <li>Apple TV</li>
+                            <li>Apple Music</li>
+                            <li>Apple Arcade</li>
+                            <li>Apple Fitness+</li>
+                            <li>Apple Podcast</li>
+                            <li>Apple Books</li>
+                            <li>App Store</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div>
-                    <h4>Nilai-nilai Apple <i class="fa-solid fa-chevron-down"></i></h4>
-                    <ul>
-                        <li>Aksesibilitas</li>
-                        <li>Pendidikan</li>
-                        <li>Linkungan</li>
-                        <li>Privasi</li>
-                        <li>Inovasi Rantai Pasok</li>
-                    </ul>
+                <div class="footer-col">
+                    <div>
+                        <h4>Untuk Bisnis <i class="fa-solid fa-chevron-down"></i></h4>
+                        <ul>
+                            <li>Apple dan Bisnis</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Untuk Pendidikan <i class="fa-solid fa-chevron-down"></i></h4>
+                        <ul>
+                            <li>Apple dan Pendidikan</li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <h4>Tentang Apple <i class="fa-solid fa-chevron-down"></i></h4>
-                    <ul>
-                        <li>Newsroom</li>
-                        <li>Kepemimpinan Apple</li>
-                        <li>Investor</li>
-                        <li>Etika & Kepatuhan</li>
-                        <li>Acara</li>
-                        <li>Hubungi Apple</li>
-                    </ul>
+
+                <div class="footer-col">
+                    <div>
+                        <h4>Nilai-nilai Apple <i class="fa-solid fa-chevron-down"></i></h4>
+                        <ul>
+                            <li>Aksesibilitas</li>
+                            <li>Pendidikan</li>
+                            <li>Linkungan</li>
+                            <li>Privasi</li>
+                            <li>Inovasi Rantai Pasok</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Tentang Apple <i class="fa-solid fa-chevron-down"></i></h4>
+                        <ul>
+                            <li>Newsroom</li>
+                            <li>Kepemimpinan Apple</li>
+                            <li>Investor</li>
+                            <li>Etika & Kepatuhan</li>
+                            <li>Acara</li>
+                            <li>Hubungi Apple</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -586,6 +596,10 @@
 
     </footer>
     <script src="public/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

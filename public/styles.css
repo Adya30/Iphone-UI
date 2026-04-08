@@ -92,13 +92,13 @@ header {
     flex-direction: column;
     background: var(--bg-secondary);
     height: 100dvh;
-    position: fixed; 
+    position: fixed;
     padding-bottom: 10px;
     padding-top: 10px;
     top: 0;
     right: -100%;
     transition: 0.5s ease-in-out;
-    z-index: 999; 
+    z-index: 999;
 }
 
 .nav-link.active {
@@ -620,7 +620,7 @@ header {
 
 .image {
     margin-top: 20px;
-    
+
 }
 
 .image img {
@@ -704,7 +704,11 @@ header {
     padding-left: 40px;
     padding-right: 40px;
     display: grid;
-    gap: 5px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer h4 {
@@ -809,7 +813,7 @@ header {
         display: none;
     }
 
-    .footer-social-media{
+    .footer-social-media {
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -838,19 +842,19 @@ header {
         object-position: 70px 90%;
     }
 
-    .content-person{
+    .content-person {
         left: 200px;
         top: 80px;
     }
 
-    .accessories-container{
+    .accessories-container {
         width: 90%;
         margin: auto;
         flex-direction: row;
         gap: 20px;
     }
 
-    .pairing-container{
+    .pairing-container {
         display: flex;
         align-items: center;
         height: 400px;
@@ -858,27 +862,27 @@ header {
         gap: 20px;
     }
 
-    .accordion-header h2{
+    .accordion-header h2 {
         font-weight: 600;
     }
 
-    .accordion{
+    .accordion {
         width: 400px;
     }
 
     .card {
-        flex: 1;       
-        margin: 0;    
+        flex: 1;
+        margin: 0;
     }
 
-    .menu-grid{
+    .menu-grid {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 80%;
     }
 
-    .footer-logo{
+    .footer-logo {
         padding-left: 80px;
     }
 
@@ -886,6 +890,8 @@ header {
         justify-content: center;
         padding-left: 80px;
         grid-template-columns: repeat(4, 1fr);
+        align-items: start;
+        gap: 0;
     }
 
     .footer-grid h4 {
@@ -905,11 +911,11 @@ header {
     }
 
     .footer h4 i {
-        display: none; 
+        display: none;
     }
 
     .footer ul {
-        max-height: none;  
+        max-height: none;
         overflow: visible;
     }
 }
@@ -1026,7 +1032,7 @@ header {
         padding-right: 30px;
     }
 
-    .explore-grid{
+    .explore-grid {
         padding-left: 80px;
     }
 
@@ -1055,11 +1061,11 @@ header {
     }
 
     /* banner person */
-    .hero-person{
+    .hero-person {
         padding-left: 40px;
     }
 
-    .person-title{
+    .person-title {
         font-size: 40px;
     }
 
@@ -1071,34 +1077,34 @@ header {
     }
 
     /* gallery */
-    .galery-header{
+    .galery-header {
         padding-left: 40px;
     }
 
-    .galery-title{
+    .galery-title {
         font-size: 50px;
     }
 
-    .galery-grid{
+    .galery-grid {
         padding-left: 80px;
     }
 
     /* accesories */
-    .accesories h2{
+    .accesories h2 {
         padding-left: 80px;
         font-size: 40px;
     }
 
     /* pairing */
-    .pairing{
+    .pairing {
         min-height: 100vh;
     }
 
-    .pairing h2{
+    .pairing h2 {
         padding-left: 80px;
     }
 
-    .accordion-header h2{
+    .accordion-header h2 {
         padding-left: 0;
     }
 
@@ -1112,12 +1118,12 @@ header {
     }
 
     /* menu-iphone */
-    .iphone-menu{
+    .iphone-menu {
         min-height: 100vh;
         padding-left: 80px;
     }
 
-    .container-menu h1{
+    .container-menu h1 {
         padding-top: 30px;
     }
 
@@ -1131,7 +1137,7 @@ header {
     }
 
     /* footer */
-    .footer-logo{
+    .footer-logo {
         padding-left: 80px;
     }
 
@@ -1139,6 +1145,14 @@ header {
         justify-content: center;
         padding-left: 80px;
         grid-template-columns: repeat(4, 1fr);
+        align-items: start;
+        gap: 0;
+    }
+
+    .footer-col {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
     }
 
     .footer-grid h4 {
@@ -1158,15 +1172,15 @@ header {
     }
 
     .footer h4 i {
-        display: none; 
+        display: none;
     }
 
     .footer ul {
-        max-height: none;  
+        max-height: none;
         overflow: visible;
     }
 
-    .footer-bottom{
+    .footer-bottom {
         padding-left: 40px;
     }
 }
