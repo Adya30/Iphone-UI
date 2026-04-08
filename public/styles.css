@@ -875,6 +875,41 @@ header {
         justify-content: space-between;
         width: 80%;
     }
+
+    .footer-logo{
+        padding-left: 80px;
+    }
+
+    .footer-grid {
+        justify-content: center;
+        padding-left: 80px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .footer-grid h4 {
+        font-weight: 600;
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .footer-grid ul li {
+        font-size: 12px;
+        font-weight: 300;
+        color: #212121;
+    }
+
+    .footer h4 {
+        cursor: default;
+    }
+
+    .footer h4 i {
+        display: none; 
+    }
+
+    .footer ul {
+        max-height: none;  
+        overflow: visible;
+    }
 }
 
 /* desktop */
