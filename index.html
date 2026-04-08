@@ -36,15 +36,13 @@
                     <i class="fa-solid fa-x"></i>
                 </div>
 
-                <a href="#">Mac</a>
-                <a href="#">iPad</a>
-                <a href="#">iPhone</a>
-                <a href="#">Watch</a>
-                <a href="#">AirPods</a>
-                <a href="#">TV & Rumah</a>
-                <a href="#">Hiburan</a>
-                <a href="#">Dukungan</a>
-                <a href="#">Tempat Membeli</a>
+                <a href="#home">Home</a>
+                <a href="#model">Model</a>
+                <a href="#banner">Banner</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#accessories">Accesories</a>
+                <a href="#information">Information</a>
+                <a href="#brand">Brands</a>
             </div>
 
             <div class="nav-icon">
@@ -60,7 +58,7 @@
         </div>
     </header>
 
-    <section class="iphone-section">
+    <section class="iphone-section" id="home">
         <div class="iphone-hero">
             <h1 class="iphone-title">iPhone</h1>
 
@@ -128,7 +126,7 @@
         </div>
     </section>
 
-    <section class="explore-section">
+    <section class="explore-section" id="model">
         <div class="explore-hero">
             <div class="explore-header">
                 <h2 class="explore-title">Jelajahi jajarannya.</h2>
@@ -262,13 +260,13 @@
             </div>
     </section>
 
-    <section class="hero-person">
-        <div class="explore-header">
-            <h2 class="explore-title">Lihat lebih dekat.</h2>
+    <section class="hero-person" id="banner">
+        <div class="person-header">
+            <h2 class="person-title">Lihat lebih dekat.</h2>
         </div>
 
         <div class="hero-wrapper">
-            <img src="Assets/banner/apple-banner.jpg" alt="Banner" class="hero-bg">
+            <img src="Assets/banner/apple-banner.jpg" alt="Banner">
 
             <div class="content-person">
                 <h2>
@@ -281,11 +279,208 @@
         </div>
     </section>
 
+    <section class="galery-section" id="gallery">
+        <div class="galery-hero">
+            <div class="galery-header">
+                <h2 class="galery-title">Gallery Iphone</h2>
+                <p>The Galery Iphone <i class="fa-solid fa-angle-right"></i></p>
+            </div>
+
+            <div class="galery-wrapper">
+                <div class="galery-grid" id="galleryGrid">
+
+                    <div class="galery-item">
+                        <div class="galery-img-wrapper">
+                            <img class="galery-main-img" src="Assets/brand/girls.jpg" alt="iPhone 17 Pro">
+                        </div>
+                    </div>
+
+                    <div class="galery-item">
+                        <div class="galery-img-wrapper">
+                            <img class="galery-main-img" src="Assets/brand/iphone-air.jpg" alt="iPhone 17 Pro">
+                        </div>
+                    </div>
+
+                    <div class="galery-item">
+                        <div class="galery-img-wrapper">
+                            <img class="galery-main-img" src="Assets/brand/iphone17.jpg" alt="iPhone 17 Pro">
+                        </div>
+                    </div>
+
+                    <div class="galery-item">
+                        <div class="galery-img-wrapper">
+                            <img class="galery-main-img" src="Assets/brand/screen.jpg" alt="iPhone 17 Pro">
+                        </div>
+                    </div>
+
+                    <div class="galery-item">
+                        <div class="galery-img-wrapper">
+                            <img class="galery-main-img" src="Assets/brand/privacy.jpg" alt="iPhone 17 Pro">
+                        </div>
+                    </div>
+
+                    <div class="galery-item">
+                        <div class="galery-img-wrapper">
+                            <img class="galery-main-img" src="Assets/brand/air-drone.jpg" alt="iPhone 17 Pro">
+                        </div>
+                    </div>
+
+                    <div class="galery-item">
+                        <div class="galery-img-wrapper">
+                            <img class="galery-main-img" src="Assets/brand/chip.jpg" alt="iPhone 17 Pro">
+                        </div>
+                    </div>
+
+                    <div class="galery-item">
+                        <div class="galery-img-wrapper">
+                            <img class="galery-main-img" src="Assets/brand/air-drone.jpg" alt="iPhone 17 Pro">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="btn-hero">
+                    <button class="explore-btn explore-btn-left" id="galleryPrev"><i
+                            class="fa-solid fa-angle-left"></i></button>
+                    <button class="explore-btn explore-btn-right visible" id="galleryNext"><i
+                            class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+    </section>
+
+    <section class="accesories" id="accessories">
+        <h2>Yang penting untuk iPhone.</h2>
+        <div class="accessories-container">
+            <div class="card">
+                <h3>Aksesori iPhone</h3>
+                <p>
+                    Lindungi dan personalisasi iPhone Anda dengan aksesoris baru
+                    seperti casing berwarna, Tali Selempang, dan banyak lagi.
+                </p>
+
+                <div class="card-image">
+                    <img src="Assets/img-slide/accessories_iphone.jpg" alt="Aksesoris iPhone">
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="badge">Baru</span>
+                <h3>AirTag</h3>
+                <p>
+                    Kini dengan speaker yang 50% lebih lantang dan rentang pencarian
+                    hingga 1,5x lebih luas, semakin mudah untuk melacak hal penting.
+                </p>
+                <a href="#" class="link">Beli ></a>
+
+                <div class="card-image">
+                    <img src="Assets/img-slide/airtag_accessories_handle.jpg" alt="AirTag">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pairing" id="information">
+        <h2>Pasangan sempurna</h2>
+
+        <div class="pairing-container">
+
+            <div class="accordion">
+
+                <div class="item active">
+                    <button class="accordion-header">
+                        <h2>iPhone dan Mac</h2>
+                        <span class="icon"><i class="fa-solid fa-angle-down"></i></span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            Dengan Pencerminan iPhone, Anda bisa melihat layar iPhone Anda di Mac dan mengontrolnya
+                            tanpa perlu menyentuh ponsel Anda.
+                            Anda juga bisa menyalin gambar, video, atau teks dari iPhone ke Mac.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <button class="accordion-header">
+                        <h2>iPhone dan Apple Watch</h2>
+                        <span class="icon"><i class="fa-solid fa-angle-down"></i></span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            Apple Watch membantu Anda tetap terhubung, sehat, dan aktif langsung dari pergelangan tangan
+                            Anda.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <button class="accordion-header">
+                        <h2>iPhone dan AirPods</h2>
+                        <span class="icon"><i class="fa-solid fa-angle-down"></i></span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            AirPods memberikan pengalaman audio yang seamless dengan iPhone Anda.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="image">
+                <img src="Assets/faq/mac-screen.jpg" alt="iPhone dan Mac">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="iphone-menu" id="brand">
+        <div class="container-menu">
+            <h1>iPhone</h1>
+
+            <div class="menu-grid">
+
+                <div class="menu-col">
+                    <p class="menu-title">Jelajahi iPhone</p>
+                    <p class="bold">Jelajahi Semua Model iPhone</p>
+
+                    <ul>
+                        <li>iPhone 17 Pro</li>
+                        <li>iPhone Air</li>
+                        <li>iPhone 17</li>
+                        <li>iPhone 17e</li>
+                        <li>iPhone 16</li>
+                    </ul>
+
+                    <ul class="sub">
+                        <li>Bandingkan iPhone</li>
+                        <li>Beralih dari Android</li>
+                    </ul>
+                </div>
+
+                <div class="menu-col">
+                    <p class="bold">Lainnya dari iPhone</p>
+
+                    <ul>
+                        <li>Dukungan iPhone</li>
+                        <li>AppleCare</li>
+                        <li>iOS 26</li>
+                        <li>Apple Intelligence</li>
+                        <li>Aplikasi buatan Apple</li>
+                        <li>Privasi iPhone</li>
+                        <li>Lebih baik dengan Mac</li>
+                        <li>iCloud+</li>
+                        <li>Dompet</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
 
         <div class="footer-container">
 
-            <!-- Logo -->
             <div class="footer-logo">
                 <i class="fa-brands fa-apple"></i>
                 <span>iPhone</span>
@@ -294,7 +489,7 @@
             <div class="footer-grid">
 
                 <div>
-                    <h4>Belanja dan Belajar</h4>
+                    <h4>Belanja dan Belajar <i class="fa-solid fa-chevron-down"></i></h4>
                     <ul>
                         <li>Mac</li>
                         <li>iPad</li>
@@ -304,21 +499,23 @@
                         <li>TV & Rumah</li>
                         <li>AirTag</li>
                     </ul>
-
-                    <h4>Dompet Apple</h4>
+                </div>
+                <div>
+                    <h4>Dompet Apple <i class="fa-solid fa-chevron-down"></i></h4>
                     <ul>
                         <li>Dompet</li>
                     </ul>
                 </div>
 
                 <div>
-                    <h4>Akun</h4>
+                    <h4>Akun <i class="fa-solid fa-chevron-down"></i></h4>
                     <ul>
                         <li>Kelola Akun</li>
                         <li>iCloud.com</li>
                     </ul>
-
-                    <h4>Hiburan</h4>
+                </div>
+                <div>
+                    <h4>Hiburan <i class="fa-solid fa-chevron-down"></i></h4>
                     <ul>
                         <li>Apple Music</li>
                         <li>Apple TV</li>
@@ -332,19 +529,20 @@
                 </div>
 
                 <div>
-                    <h4>Untuk Bisnis</h4>
+                    <h4>Untuk Bisnis <i class="fa-solid fa-chevron-down"></i></h4>
                     <ul>
                         <li>Apple dan Bisnis</li>
                     </ul>
-
-                    <h4>Untuk Pendidikan</h4>
+                </div>
+                <div>
+                    <h4>Untuk Pendidikan <i class="fa-solid fa-chevron-down"></i></h4>
                     <ul>
                         <li>Apple dan Pendidikan</li>
                     </ul>
                 </div>
 
                 <div>
-                    <h4>Nilai-nilai Apple</h4>
+                    <h4>Nilai-nilai Apple <i class="fa-solid fa-chevron-down"></i></h4>
                     <ul>
                         <li>Aksesibilitas</li>
                         <li>Pendidikan</li>
@@ -352,8 +550,9 @@
                         <li>Privasi</li>
                         <li>Inovasi Rantai Pasok</li>
                     </ul>
-
-                    <h4>Tentang Apple</h4>
+                </div>
+                <div>
+                    <h4>Tentang Apple <i class="fa-solid fa-chevron-down"></i></h4>
                     <ul>
                         <li>Newsroom</li>
                         <li>Kepemimpinan Apple</li>
@@ -363,19 +562,13 @@
                         <li>Hubungi Apple</li>
                     </ul>
                 </div>
-
-                <div class="p-footer">
-                    <a href="#">Temukan retailer </a>
-                    <p> di dekat Anda.</p>
-                </div>
-
             </div>
 
             <!-- Bottom -->
             <div class="footer-bottom">
                 <div class="footer-copy">
                     <p>Indonesia</p><br>
-                    <p>&copy;2026 Apple Inc. Slicing by Adya</p>
+                    <p>Made with ❤ by Adya</p>
                 </div>
                 <div class="footer-links">
                     <a href="#">Privasi |</a>
@@ -384,8 +577,8 @@
                     <a href="#">Peta Situs</a>
                 </div>
                 <div class="footer-social-media">
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Adya30" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/adya_han/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
 
