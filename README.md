@@ -7,8 +7,8 @@ Website ini merupakan hasil **slicing UI website iPhone (Apple style)** mengguna
 
 <p align="center">
   <img src="Assets/windows.png" width="30%" align="top" />
-  <img src="Assets/tablet.png" width="30%" align="top" />
-  <img src="Assets/mobile.png" width="30%" align="top" />
+  <img src="Assets/tablet.png" width="20%" align="top" />
+  <img src="Assets/mobile.png" width="20%" align="top" />
 </p>
 ---
 
