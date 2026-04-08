@@ -3,14 +3,13 @@
 Website ini merupakan hasil **slicing UI website iPhone (Apple style)** menggunakan **HTML, CSS, dan JavaScript (DOM)** dengan pendekatan **mobile-first responsive design** dan menggunakan **aos animation dari github**.
 
 ---
-# Screen Shoot
-<table>
-  <tr valign="top">
-    <td><img src="Assets/windows.png1" width="100%"></td>
-    <td><img src="Assets/tablet.png" width="100%"></td>
-    <td><img src="Assets/mobile.png" width="100%"></td>
-  </tr>
-</table>
+# Screenshot
+
+<p align="center">
+  <img src="Assets/windows.png" width="30%" align="top" />
+  <img src="Assets/tablet.png" width="30%" align="top" />
+  <img src="Assets/mobile.png" width="30%" align="top" />
+</p>
 ---
 
 ## 🛠️ Tech Stack
