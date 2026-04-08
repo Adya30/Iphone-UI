@@ -71,16 +71,13 @@ Website ini merupakan hasil **slicing UI website iPhone (Apple style)** mengguna
 ## ✨ Features
 
 * 📱 Mobile-first responsive design
-* 🍎 UI mirip Apple (clean & minimal)
-* 📦 Card layout (flex & grid)
-* 🖼️ Image handling (object-fit & object-position)
 * 📌 Navbar toggle (JavaScript DOM)
 * 🧭 Footer multi-column
 * ⭐ Icon menggunakan Font Awesome
 
 ---
 
-## ⚙️ JavaScript (DOM Example)
+## ⚙️ JavaScript (Contoh DOM)
 
 ```javascript
 function setupScroll(gridId, btnLeftId, btnRightId, scrollAmount = 200) {
