@@ -44,13 +44,17 @@ Website ini merupakan hasil **slicing UI website iPhone (Apple style)** mengguna
 
 ```
 📦 iphone-slicing
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
 ├── Assets/
-│   └── img-slide/
+│   └── banner/
+|   └── brand/
+|   └── faq/
+|   └── hero/
+|   └── img-slide/
+|   └── nav/
+├── public
+│   └── styles.css
+│   └── script.js
+├── index.html
 ```
 
 ---
