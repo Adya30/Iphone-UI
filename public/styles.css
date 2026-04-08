@@ -412,10 +412,12 @@ header {
 .content-person h2 {
     font-size: 15px;
     font-weight: 600;
+    padding-bottom: 15px;
 }
 
 .btn {
     margin-top: 10px;
+    font-size: 12px;
     padding: 10px 20px;
     background: #242424;
     border: none;
