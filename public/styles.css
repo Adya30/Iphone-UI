@@ -450,7 +450,7 @@ header {
     padding-left: 40px;
 }
 
-.galery-hero p {
+.galery-hero a {
     padding-left: 40px;
     font-size: 12px;
     color: var(--text-link);

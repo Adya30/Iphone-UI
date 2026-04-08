@@ -3,6 +3,13 @@
 Website ini merupakan hasil **slicing UI website iPhone (Apple style)** menggunakan **HTML, CSS, dan JavaScript (DOM)** dengan pendekatan **mobile-first responsive design**.
 
 ---
+<p align="center">
+  <img src="Assets/windows.png" width="30%" />
+  <img src="Assets/tablet.png" width="30%" />
+  <img src="Assets/mobile.png" width="30%" />
+</p>
+
+---
 
 ## 🛠️ Tech Stack
 
