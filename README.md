@@ -1,4 +1,4 @@
-# iPhone Web Slicing (Responsive)
+# iPhone Web Slicing
 
 Website ini merupakan hasil **slicing UI website iPhone (Apple style)** menggunakan **HTML, CSS, dan JavaScript (DOM)** dengan pendekatan **mobile-first responsive design** dan menggunakan **aos animation dari github**.
 
